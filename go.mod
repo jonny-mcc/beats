@@ -21,23 +21,6 @@ require (
 	github.com/akavel/rsrc v0.10.2 // indirect
 	github.com/apoydence/eachers v0.0.0-20181020210610-23942921fe77 // indirect
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
-<<<<<<< HEAD
-	github.com/aws/aws-sdk-go-v2 v1.42.1
-	github.com/aws/aws-sdk-go-v2/config v1.32.27
-	github.com/aws/aws-sdk-go-v2/credentials v1.19.26
-	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.45.2
-	github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.73.0
-	github.com/aws/aws-sdk-go-v2/service/costexplorer v1.51.1
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.304.0
-	github.com/aws/aws-sdk-go-v2/service/elasticloadbalancingv2 v1.45.4
-	github.com/aws/aws-sdk-go-v2/service/iam v1.42.1
-	github.com/aws/aws-sdk-go-v2/service/organizations v1.38.4
-	github.com/aws/aws-sdk-go-v2/service/rds v1.118.2
-	github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi v1.26.5
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.104.2
-	github.com/aws/aws-sdk-go-v2/service/sqs v1.38.7
-	github.com/aws/aws-sdk-go-v2/service/sts v1.43.5
-=======
 	github.com/aws/aws-sdk-go-v2 v1.43.4
 	github.com/aws/aws-sdk-go-v2/config v1.32.35
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.34
@@ -53,7 +36,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.107.0
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.46.4
 	github.com/aws/aws-sdk-go-v2/service/sts v1.45.4
->>>>>>> 727283e8f (build(deps): bump the aws-sdks group across 1 directory with 28 updates (#52528))
 	github.com/blakesmith/ar v0.0.0-20150311145944-8bd4349a67f2
 	github.com/cavaliergopher/rpm v1.2.0
 	github.com/cespare/xxhash/v2 v2.3.0
@@ -177,39 +159,21 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.6.3
 	github.com/Azure/azure-storage-blob-go v0.15.0
 	github.com/aerospike/aerospike-client-go/v7 v7.7.1
-<<<<<<< HEAD
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.30
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.79
-	github.com/aws/aws-sdk-go-v2/service/apigateway v1.31.3
-	github.com/aws/aws-sdk-go-v2/service/apigatewayv2 v1.28.3
-	github.com/aws/aws-sdk-go-v2/service/health v1.30.3
-	github.com/aws/smithy-go v1.27.3
-=======
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.35
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.41
 	github.com/aws/aws-sdk-go-v2/service/apigateway v1.42.4
 	github.com/aws/aws-sdk-go-v2/service/apigatewayv2 v1.37.4
 	github.com/aws/aws-sdk-go-v2/service/health v1.40.4
 	github.com/aws/smithy-go v1.27.6
->>>>>>> 727283e8f (build(deps): bump the aws-sdks group across 1 directory with 28 updates (#52528))
 	github.com/beevik/ntp v1.4.3
 	github.com/brianvoe/gofakeit v3.18.0+incompatible
 	github.com/dgraph-io/badger/v4 v4.6.0
-	github.com/elastic/bayeux v1.0.5
-	github.com/elastic/ebpfevents v0.9.1-0.20260727124511-05b78de333fd
-	github.com/elastic/elastic-agent-autodiscover v0.10.3-0.20260423154939-e990715f9426
-	github.com/elastic/elastic-agent-libs v0.46.3
-	github.com/elastic/elastic-agent-system-metrics v0.14.4
-	github.com/elastic/go-elasticsearch/v8 v8.19.0
-	github.com/elastic/go-freelru v0.16.0
-	github.com/elastic/go-quark v0.6.0
 	github.com/elastic/go-sfdc v0.0.0-20260504130806-a46e22d049d9
 	github.com/elastic/mito v1.25.1
 	github.com/elastic/mock-es v0.0.0-20250530054253-8c3b6053f9b6
 	github.com/elastic/sarama v1.19.1-0.20260310070522-abae92ca1603
 	github.com/elastic/tk-btf v0.2.0
 	github.com/elastic/toutoumomoma v0.0.0-20240626215117-76e39db18dfb
-	github.com/go-ldap/ldap/v3 v3.4.6
 	github.com/go-ole/go-ole v1.3.0
 	github.com/go-resty/resty/v2 v2.17.2
 	github.com/gofrs/uuid/v5 v5.3.2
@@ -260,9 +224,18 @@ require (
 	github.com/apache/arrow-go/v18 v18.4.1
 	github.com/cilium/ebpf v0.22.0
 	github.com/coder/websocket v1.8.14
+	github.com/elastic/bayeux v1.0.5
+	github.com/elastic/ebpfevents v0.9.0
+	github.com/elastic/elastic-agent-autodiscover v0.10.3
+	github.com/elastic/elastic-agent-libs v0.46.3
+	github.com/elastic/elastic-agent-system-metrics v0.14.4
+	github.com/elastic/go-elasticsearch/v8 v8.19.7
+	github.com/elastic/go-freelru v0.16.0
+	github.com/elastic/go-quark v0.6.0
 	github.com/elastic/gokrb5/v8 v8.0.0-20251105095404-23cc45e6a102
 	github.com/elastic/lumberjack v0.0.0-20260715013204-c5b60bbeaaab
 	github.com/forensicanalysis/fslib v0.15.2
+	github.com/go-ldap/ldap/v3 v3.4.14
 	github.com/mattn/go-sqlite3 v1.14.32
 	github.com/parsiya/golnk v0.0.0-20251207220015-443df11fe4fb
 	github.com/richardlehane/mscfb v1.0.6
@@ -338,26 +311,13 @@ require (
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.55.0 // indirect
 	github.com/VictoriaMetrics/easyproto v0.1.4 // indirect
 	github.com/alecthomas/repr v0.1.1 // indirect
-	github.com/alexbrainman/sspi v0.0.0-20210105120005-909beea2cc74 // indirect
+	github.com/alexbrainman/sspi v0.0.0-20250919150558-7d374ff0d59e // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
 	github.com/apache/arrow/go/v15 v15.0.2 // indirect
 	github.com/apache/thrift v0.23.1-0.20260429145742-d2acd3c49e58 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/aws/aws-msk-iam-sasl-signer-go v1.0.4 // indirect
-<<<<<<< HEAD
-	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.14 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.30 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.30 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.31 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.13 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.23 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.30 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.31 // indirect
-	github.com/aws/aws-sdk-go-v2/service/signin v1.2.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.31.5 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.36.8 // indirect
-=======
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.16 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.35 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.35 // indirect
@@ -369,7 +329,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/signin v1.5.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.33.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.38.4 // indirect
->>>>>>> 727283e8f (build(deps): bump the aws-sdks group across 1 directory with 28 updates (#52528))
 	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bluekeyes/go-gitdiff v0.7.1 // indirect
@@ -390,7 +349,7 @@ require (
 	github.com/eapache/go-xerial-snappy v0.0.0-20230731223053-c322873962e3 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
-	github.com/elastic/elastic-transport-go/v8 v8.8.0 // indirect
+	github.com/elastic/elastic-transport-go/v8 v8.9.0 // indirect
 	github.com/elastic/go-docappender/v2 v2.14.1 // indirect
 	github.com/elastic/go-windows v1.0.2 // indirect
 	github.com/elazarl/goproxy v0.0.0-20240909085733-6741dbfc16a1 // indirect
@@ -403,7 +362,7 @@ require (
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/foxboron/go-tpm-keyfiles v0.0.0-20251226215517-609e4778396f // indirect
 	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
-	github.com/go-asn1-ber/asn1-ber v1.5.5 // indirect
+	github.com/go-asn1-ber/asn1-ber v1.5.8 // indirect
 	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
 	github.com/go-logfmt/logfmt v0.6.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
